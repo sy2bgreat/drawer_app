@@ -44,6 +44,7 @@ class MyHomePage extends StatelessWidget {
       ),
       drawer: Drawer(
         child: ListView(
+          padding: EdgeInsets.all(0),
           children: [
             UserAccountsDrawerHeader(
               currentAccountPicture: const CircleAvatar(
